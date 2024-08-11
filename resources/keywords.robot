@@ -6,7 +6,7 @@ Keyword Tags
 
 *** Keywords ***
 Open Browser To URL
-    [Arguments]    ${url}    ${browser}=Chrome
+    [Arguments]    ${url}    ${browser}
     Open Browser    ${url}    ${browser}
     Maximize Browser Window
     Wait Until Page Contains Element    //body
